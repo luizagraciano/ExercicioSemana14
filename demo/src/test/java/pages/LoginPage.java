@@ -23,7 +23,7 @@ public class LoginPage extends BasePage{
     }
 
     public SecurePage botaoLogin(){
-        loginForm.findElement(By.xpath("/html/body/div[2]/div/div/form/button/i")).click();
+        navegador.findElement(By.xpath("/html/body/div[2]/div/div/form/button/i")).click();
         return new SecurePage(navegador);
     }
     
